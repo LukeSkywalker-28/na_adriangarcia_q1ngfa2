@@ -4,43 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<style>
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#navbar{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 15px;
+    text-align: center;
+    background-color: aquamarine;
+}
+.links {
+    display: inline;
+}
+
+#navbar .links a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    opacity: .60;
+    transition: 0.2s;
+}
+#navbar .links a:hover{opacity: 1; transition: 0.4s;}
+#yt{ background-color: red; color: white;}
+#dc{ background-color: purple; color: white;}
+#x{ background-color: black; color: white;}
+#red{background-color: orangered; color: white;}
+#inst{background-color: yellow;color: rebeccapurple;}
+
+.box{border-radius: 5px;}
+</style>
+
+
 </head>
 <body>
-    <h1> E </h1>
-    <h2> E </h2>
-    <h3> E </h3>
-    <h4> E </h4>
-    <h5> E </h5>
-    <h6> E </h6>
 
-    <p title="secret tunnel"> What you know about rolling down in the deep </p>
-    <u> Anakin on top </u>
-    <b> Bald </b>
-    <i> Italy </i>
-    <del> nein </del>
-    <strong> emphasize </strong> 
+    <div id="navbar" class="box">
+        <div class="links"><a href="https://www.youtube.com/" id="yt">Youtube</a></div>
+        <div class="links"><a href="https://discord.com/" id="dc">Discord</a></div>
+        <div class="links"><a href="https://twitter.com/X?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" id="x">Twitter</a></div>
+        <div class="links"><a href="https://www.reddit.com/?rdt=62663" id="red">Reddit</a></div>
+        <div class="links"><a href="https://www.instagram.com/" id="inst">Instagram</a></div>
+    </div>
 
-    <hr>
-    <sup> Super idol </sup>
-    <sub> Subscript </sub>
 
-    <ol> 
-        <li> animals </li>
-            <ul> human </ul>
-            <ul> reptiles </ul>
-            <ul> amphibians </ul>
-        <li> Fungi </li>
-            <ul> mushrooms </ul>
-            <ul> cordyceps </ul>
-        <li> Viruses </li>
-        <ul> COVID-19 </ul>
-        <ul> SARS </ul>
-    </ol>
-
-    <br>
-
-    <img src="bigbrain.jpg" alt="Everyone in Math" width="300px" height="250px">
-    <a href="page2.html"> To Page 2 </a>
-    
 </body>
 </html>
