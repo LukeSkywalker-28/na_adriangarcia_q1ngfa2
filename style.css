@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#navbar{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 15px;
+    text-align: center;
+    background-color: #FF5964;
+}
+.links {
+    display: inline;
+}
+
+#navbar .links a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    opacity: .60;
+    transition: 0.2s;
+}
+#navbar .links a:hover{opacity: 1; transition: 0.4s;}
+#yt{ background-color: red; color: white;}
+#dc{ background-color: purple; color: white;}
+#x{ background-color: black; color: white;}
+#red{background-color: orangered; color: white;}
+#inst{background-color: yellow;color: rebeccapurple;}
+
+.box{border-radius: 5px;}
+.banner{
+    background-image: url(Capt-Joe_s-Ribeye-Steak.jpg);
+    background-repeat: no-repeat;
+    background-attachment: cover;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.banner h2 {
+    color: #FF5964;
+    font-family: 'Young Serif', serif;
+
+}
+
+.banner p{
+    color: #FFEECF;
+}
+
+.banner a{
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Young Serif', serif;
+
+}
